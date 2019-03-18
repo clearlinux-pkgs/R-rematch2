@@ -4,13 +4,12 @@
 #
 Name     : R-rematch2
 Version  : 2.0.1
-Release  : 5
+Release  : 6
 URL      : https://cran.r-project.org/src/contrib/rematch2_2.0.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rematch2_2.0.1.tar.gz
 Summary  : Tidy Output from Regular Expression Matching
 Group    : Development/Tools
 License  : MIT
-Requires: R-cli
 BuildRequires : R-cli
 BuildRequires : R-tibble
 BuildRequires : buildreq-R
@@ -32,10 +31,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552843666
+export SOURCE_DATE_EPOCH=1552868722
 
 %install
-export SOURCE_DATE_EPOCH=1552843666
+export SOURCE_DATE_EPOCH=1552868722
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
