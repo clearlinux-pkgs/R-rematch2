@@ -4,7 +4,7 @@
 #
 Name     : R-rematch2
 Version  : 2.1.0
-Release  : 16
+Release  : 17
 URL      : https://cran.r-project.org/src/contrib/rematch2_2.1.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rematch2_2.1.0.tar.gz
 Summary  : Tidy Output from Regular Expression Matching
