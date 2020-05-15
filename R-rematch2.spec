@@ -4,7 +4,7 @@
 #
 Name     : R-rematch2
 Version  : 2.1.2
-Release  : 21
+Release  : 22
 URL      : https://cran.r-project.org/src/contrib/rematch2_2.1.2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rematch2_2.1.2.tar.gz
 Summary  : Tidy Output from Regular Expression Matching
@@ -26,10 +26,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1588629610
+export SOURCE_DATE_EPOCH=1589586522
 
 %install
-export SOURCE_DATE_EPOCH=1588629610
+export SOURCE_DATE_EPOCH=1589586522
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
